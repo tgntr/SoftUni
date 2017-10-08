@@ -1,0 +1,9 @@
+ALTER TABLE Users
+ALTER Column LastLoginTime DATETIME NOT NULL
+
+ALTER TABLE Users
+ADD DEFAULT GETDATE()
+FOR LastLoginTime
+
+
+
