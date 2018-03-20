@@ -2,7 +2,7 @@
 
 public class ItemFactory
 {
-    public  Item CreateItem(string name)
+    public  static Item CreateItem(string name)
     {
         if (name == "HealthPotion")
         {

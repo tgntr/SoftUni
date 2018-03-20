@@ -3,7 +3,7 @@
 public class CharacterFactory
 {
     
-    public  Character CreateCharacter(string factionType, string characterType, string characterName)
+    public static Character CreateCharacter(string factionType, string characterType, string characterName)
     {
         var faction = FactionFactory.CreateFaction(factionType);
 
@@ -19,6 +19,6 @@ public class CharacterFactory
         {
             return new Cleric(name, faction);
         }
-        throw new ArgumentException($"Invalid character type \"{characterType}\"!");
+        throw new ArgumentException($"Invalid character \"{characterType}\"!");
     }
 }

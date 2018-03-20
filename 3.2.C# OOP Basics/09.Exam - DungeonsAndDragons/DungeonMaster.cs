@@ -9,18 +9,12 @@ public class DungeonMaster
     private List<Item> items;
     private int survivorRounds = 0;
     private int alone = 0;
-    private ItemFactory itemFactory;
-    private CharacterFactory characterFactory;
     
     public DungeonMaster()
     {
         characters = new List<Character>();
 
         items = new List<Item>();
-
-        itemFactory = new ItemFactory();
-
-        characterFactory = new CharacterFactory();
     }
 
     public string JoinParty(string[] args)
@@ -28,14 +22,14 @@ public class DungeonMaster
         var faction = args[0];
         var character = args[1];
         var name = args[2];
-        characters.Add(characterFactory.CreateCharacter(faction, character, name));
+        characters.Add(CharacterFactory.CreateCharacter(faction, character, name));
         return $"{name} joined the party!";
     }
 
     public string AddItemToPool(string[] args)
     {
         var itemName = args[0];
-        items.Add(itemFactory.CreateItem(itemName));
+        items.Add(ItemFactory.CreateItem(itemName));
         return $"{itemName} added to pool.";
     }
 
@@ -64,7 +58,7 @@ public class DungeonMaster
         var character = GetCharacter(charName);
         character.BagIsEmpty();
         character.ItemIsAvailable(itemName);
-        character.UseItem(itemFactory.CreateItem(itemName));
+        character.UseItem(ItemFactory.CreateItem(itemName));
 
 
 
