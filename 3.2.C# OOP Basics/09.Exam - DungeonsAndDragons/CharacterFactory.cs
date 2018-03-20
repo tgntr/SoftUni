@@ -3,13 +3,13 @@
 public class CharacterFactory
 {
     
-    public  Character CreateCharacter(string[] details)
+    public  Character CreateCharacter(string factionType, string characterType, string characterName)
     {
-        var faction = FactionFactory.CreateFaction(details[0]);
+        var faction = FactionFactory.CreateFaction(factionType);
 
-        var characterType = details[1];
+        var character = characterType;
 
-        var name = details[2];
+        var name = characterName;
 
         if (characterType == "Warrior")
         {

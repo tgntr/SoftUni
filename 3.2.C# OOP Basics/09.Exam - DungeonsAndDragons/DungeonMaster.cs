@@ -25,8 +25,10 @@ public class DungeonMaster
 
     public string JoinParty(string[] args)
     {
+        var faction = args[0];
+        var character = args[1];
         var name = args[2];
-        characters.Add(characterFactory.CreateCharacter(args));
+        characters.Add(characterFactory.CreateCharacter(faction, character, name));
         return $"{name} joined the party!";
     }
 

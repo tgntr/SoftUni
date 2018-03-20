@@ -31,30 +31,7 @@ public abstract class Character
         IsAlive = true;
     }
 
-    internal void Repair()
-    {
-        Armor = BaseArmor;
-    }
-
-
-
-    internal void Heal(double weight)
-    {
-        Health += weight;
-    }
-
-
-
-    internal void Poison()
-    {
-        Health -= 20;
-
-        if (Health <= 0)
-        {
-            IsAlive = false;
-        }
-    }
-
+  
 
 
 
@@ -85,7 +62,7 @@ public abstract class Character
         }
         protected set
         {
-            if (value < 0)
+            if (value <= 0)
             {
                 health = 0;
                 IsAlive = false;
@@ -142,10 +119,6 @@ public abstract class Character
         if (hitPointsLeft > 0)
         {
             Health -= hitPointsLeft;
-        }
-        if (Health <= 0)
-        {
-            IsAlive = false;
         }
 
     }
@@ -223,4 +196,24 @@ public abstract class Character
             return "Alive";
         return "Dead";
     }
+
+    internal void Repair()
+    {
+        Armor = BaseArmor;
+    }
+
+
+
+    internal void Heal(double weight)
+    {
+        Health += weight;
+    }
+
+
+
+    internal void Poison()
+    {
+        Health -= 20;
+    }
+
 }
