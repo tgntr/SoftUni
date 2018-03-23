@@ -63,7 +63,7 @@ namespace DungeonsAndCodeWizards
                     }
                     else if (command == "EndTurn")
                     {
-                        output = dungeonMaster.EndTurn();
+                        output = dungeonMaster.EndTurn(details);
                     }
                     else if (command == "IsGameOver")
                     {

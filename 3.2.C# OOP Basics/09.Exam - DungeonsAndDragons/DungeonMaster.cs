@@ -133,7 +133,7 @@ public class DungeonMaster
         return $"{healer.Name} heals {receiver.Name} for {healer.AbilityPoints}! {receiver.Name} has {receiver.Health} health now!";
     }
 
-    public string EndTurn()
+    public string EndTurn(string[] args)
     {
         
         var builder = new StringBuilder();
@@ -153,7 +153,7 @@ public class DungeonMaster
 
     public bool IsGameOver()
     {
-        return survivorRounds > 1 && CharactersAlive <= 1;
+        return survivorRounds > 1 && CharactersAlive == 1;
     }
     
 
