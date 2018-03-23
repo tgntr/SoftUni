@@ -4,21 +4,19 @@ public class Cleric
     : Character, IHealable
 {
     public Cleric(string name, Faction faction)
-        : base(name, 50, 25, 40, BagFactory.CreateBag("Backpack"), faction )
+        : base(name, 50, 25, 40, BagFactory.CreateBag("Backpack"), faction)
     {
         RestHealMultiplier = 0.5;
     }
 
     public void Heal(Character character)
     {
-        if (IsAlive && character.IsAlive)
+        CheckIfAlive();
+        character.CheckIfAlive();
+        if (Faction != character.Faction)
         {
-            if (Faction != character.Faction)
-            {
-                throw new InvalidOperationException("Cannot heal enemy character!");
-            }
-            character.Heal(AbilityPoints);
+            throw new InvalidOperationException("Cannot heal enemy character!");
         }
+        character.Heal(AbilityPoints);
     }
 }
-

@@ -8,7 +8,7 @@ public class DungeonMaster
     private List<Character> characters;
     private List<Item> items;
     private int survivorRounds = 0;
-    private int alone = 0;
+    private int CharactersAlive => characters.Where(c => c.IsAlive).Count();
     
     public DungeonMaster()
     {
@@ -52,30 +52,21 @@ public class DungeonMaster
 
     public string UseItem(string[] args)
     {
-        var charName = args[0];
-        var itemName = args[1]; 
-        
-        var character = GetCharacter(charName);
-        character.BagIsEmpty();
-        character.ItemIsAvailable(itemName);
-        character.UseItem(ItemFactory.CreateItem(itemName));
+        var character = GetCharacter(args[0]);
+        var item = character.Bag.GetItem(args[1]);
+        character.UseItem(item);
 
-
-
-        return $"{charName} used {itemName}.";
+        return $"{character.Name} used {args[1]}.";
     }
 
     public string UseItemOn(string[] args)
     {
-        var giverName = args[0];
-        var receiverName = args[1];
-        var itemName = args[2];
-        var giver = GetCharacter(giverName);
-        var receiver = GetCharacter(receiverName);
+        var giver = GetCharacter(args[0]);
+        var receiver = GetCharacter(args[1]);
+        var item = giver.Bag.GetItem(args[2]);
+        giver.UseItemOn(item, receiver);
 
-        giver.UseItemOn(giver.Bag.GetItem(itemName), receiver);
-
-        return $"{giverName} used {itemName} on {receiverName}.";
+        return $"{giver.Name} used {args[2]} on {receiver.Name}.";
 
     }
 
@@ -133,7 +124,7 @@ public class DungeonMaster
 
         if (healer is Warrior)
         {
-            throw new ArgumentException($"{args[0]} cannot attack!");
+            throw new ArgumentException($"{args[0]} cannot heal!");
         }
 
         var cleric = (Cleric)healer;
@@ -144,30 +135,25 @@ public class DungeonMaster
 
     public string EndTurn()
     {
-        var aliveChars = characters.Where(c=>c.IsAlive).Count();
-        if (aliveChars == 1)
-        {
-            alone++;
-            survivorRounds++;
-        }
-        else if(aliveChars == 0)
-        {
-            survivorRounds++;
-        }
+        
         var builder = new StringBuilder();
-        foreach (var character in characters.Where(c=>c.Status() == "Alive"))
+        foreach (var character in characters.Where(c=>c.IsAlive))
         {
             var currentHealth = character.Health;
             character.Rest();
             builder.AppendLine($"{character.Name} rests ({currentHealth} => {character.Health})");
 
         }
+        if (CharactersAlive <= 1)
+        {
+            survivorRounds++;
+        }
         return builder.ToString().Trim();
     }
 
     public bool IsGameOver()
     {
-        return alone > 1;
+        return survivorRounds > 1 && CharactersAlive <= 1;
     }
     
 

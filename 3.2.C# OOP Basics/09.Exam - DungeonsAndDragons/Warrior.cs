@@ -11,18 +11,19 @@ public class Warrior
 
     public void Attack(Character character)
     {
-        if (IsAlive && character.IsAlive)
+        CheckIfAlive();
+        character.CheckIfAlive();
+        if (this == character)
         {
-            if (this == character)
-            {
-                throw new InvalidOperationException("Cannot attack self!");
-            }
-            else if (this.Faction == character.Faction)
-            {
-                throw new ArgumentException($"Friendly fire! Both characters are from {Faction} faction!");
-            }
-
-            character.TakeDamage(AbilityPoints);
+            throw new InvalidOperationException("Cannot attack self!");
         }
+        else if (this.Faction == character.Faction)
+        {
+            throw new ArgumentException($"Friendly fire! Both characters are from {Faction} faction!");
+        }
+
+        character.TakeDamage(AbilityPoints);
+
+
     }
 }

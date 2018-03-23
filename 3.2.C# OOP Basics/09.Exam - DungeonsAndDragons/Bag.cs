@@ -31,14 +31,11 @@ public abstract class Bag
 
     public Item GetItem(string name)
     {
-        if (Items.Count == 0)
+        if (items.Count == 0)
         {
             throw new InvalidOperationException("Bag is empty!");
         }
-
-
-
-        if (!Items.Any(i => i.GetType().Name == name))
+        if (!items.Any(i => i.GetType().Name == name))
         {
             throw new ArgumentException($"No item with name {name} in bag!");
         }

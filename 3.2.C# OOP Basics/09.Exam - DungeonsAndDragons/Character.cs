@@ -123,7 +123,7 @@ public abstract class Character
 
     }
 
-    private void CheckIfAlive()
+    internal void CheckIfAlive()
     {
         if (!IsAlive)
         {
@@ -141,8 +141,6 @@ public abstract class Character
     public void UseItem(Item item)
     {
         CheckIfAlive();
-        BagIsEmpty();
-        ItemIsAvailable(item.GetType().Name);
         item.AffectCharacter(this);
 
 
