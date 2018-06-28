@@ -1,0 +1,11 @@
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\bin\Debug\netcoreapp2.0\MeTube.Data.deps.json
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\bin\Debug\netcoreapp2.0\MeTube.Data.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\bin\Debug\netcoreapp2.0\MeTube.Data.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\obj\Debug\netcoreapp2.0\MeTube.Data.csprojResolveAssemblyReference.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\obj\Debug\netcoreapp2.0\MeTube.Data.csproj.CoreCompileInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\obj\Debug\netcoreapp2.0\MeTube.Data.AssemblyInfoInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\obj\Debug\netcoreapp2.0\MeTube.Data.AssemblyInfo.cs
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\obj\Debug\netcoreapp2.0\MeTube.Data.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\obj\Debug\netcoreapp2.0\MeTube.Data.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\bin\Debug\netcoreapp2.0\MeTube.Models.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\MeTube\MeTube.Data\bin\Debug\netcoreapp2.0\MeTube.Models.pdb
