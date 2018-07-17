@@ -1,0 +1,22 @@
+﻿@page
+@model BookLibrary.Web.Pages.Borrowers.AddBorrowerModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2>Add</h2>
+
+<form method="post">
+    <div class="form-group row">
+        <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-5">
+            <input asp-for="Name" class="form-control"required>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-5">
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+    </div>
+</form>
+

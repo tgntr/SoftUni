@@ -1,0 +1,30 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.StatusModel
+@{
+    ViewData["Title"] = "Status";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Book</th>
+            <th scope="col">Borrower</th>
+            <th scope="col">BorrowDate</th>
+            <th scope="col">ReturnDate</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var borrow in Model.Borrows)
+        {
+        <tr>
+            <td><a asp-page="/Books/Details" asp-route-id="@borrow.BookId">@borrow.Book.Title</a></td>
+            <td>@borrow.Borrower.Name</td>
+            <td>@borrow.BorrowDate</td>
+            <td>@borrow.ReturnDate</td>
+
+        </tr>
+        }
+    </tbody>
+</table>
+
