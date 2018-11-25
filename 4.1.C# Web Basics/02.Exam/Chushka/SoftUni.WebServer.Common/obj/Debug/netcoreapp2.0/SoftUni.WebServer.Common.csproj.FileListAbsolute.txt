@@ -1,0 +1,9 @@
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Common.deps.json
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Common.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Common.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Common.csprojResolveAssemblyReference.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Common.csproj.CoreCompileInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Common.AssemblyInfoInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Common.AssemblyInfo.cs
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Common.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Common\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Common.pdb

@@ -1,0 +1,15 @@
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.deps.json
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Common.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Http.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Server.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Server.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Common.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\bin\Debug\netcoreapp2.0\SoftUni.WebServer.Http.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.csprojResolveAssemblyReference.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.AssemblyInfoInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.AssemblyInfo.cs
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\SoftUni.WebServer.Mvc\obj\Debug\netcoreapp2.0\SoftUni.WebServer.Mvc.pdb

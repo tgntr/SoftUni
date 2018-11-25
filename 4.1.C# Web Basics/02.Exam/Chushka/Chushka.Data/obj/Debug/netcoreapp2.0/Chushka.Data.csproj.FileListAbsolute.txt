@@ -1,0 +1,11 @@
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\bin\Debug\netcoreapp2.0\Chushka.Data.deps.json
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\bin\Debug\netcoreapp2.0\Chushka.Data.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\obj\Debug\netcoreapp2.0\Chushka.Data.csprojResolveAssemblyReference.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\obj\Debug\netcoreapp2.0\Chushka.Data.csproj.CoreCompileInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\obj\Debug\netcoreapp2.0\Chushka.Data.AssemblyInfoInputs.cache
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\obj\Debug\netcoreapp2.0\Chushka.Data.AssemblyInfo.cs
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\bin\Debug\netcoreapp2.0\Chushka.Data.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\bin\Debug\netcoreapp2.0\Chushka.Models.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\bin\Debug\netcoreapp2.0\Chushka.Models.pdb
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\obj\Debug\netcoreapp2.0\Chushka.Data.dll
+C:\Users\tunay\Documents\SoftUni\Web Basics\CHUSHKA\Not-So-Simple-MVC\Chushka.Data\obj\Debug\netcoreapp2.0\Chushka.Data.pdb
